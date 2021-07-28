@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='card.css'>
+    <script src='card.js'></script>
+</head>
+
+<body>
+    <div class="payment">
+        <div class="bg"></div>
+        <div class="card">
+            <img src="images/chip.png" class="chip">
+            <div class="logo"></div>
+            <h2 class="bankname" contenteditable="true">Tên Ngân Hàng</h2>
+            <form>
+                <div class="inputBox">
+                    <span>Số thẻ</span>
+                    <input type="text" placeholder="0123 4567 8907 2345" maxlength="19">
+                </div>
+                <div class="inputBox">
+                    <span>Chủ thẻ</span>
+                    <input type="text" placeholder="NGUYEN HOAI NAM">
+                </div>
+                <div class="group">
+                    <div class="inputBox">
+                        <span>Hạn đến</span>
+                        <input type="text" placeholder="MM/YY" maxlength="5">
+                    </div>
+                    <div class="inputBox">
+                        <span>CCV</span>
+                        <input type="password" placeholder="***" maxlength="3">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <button class="btn">Hoàn thành</button>
+    </div>
+</body>
+
+</html>
